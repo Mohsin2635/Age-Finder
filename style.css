@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./Images/download\ 1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.7em);
+}
+.container h1 {
+  margin: 15px 0;
+  text-decoration: double underline #fff;
+  font-style: italic;
+  font-weight: 900;
+  color: #fff;
+}
+#input_number {
+  width: 80%;
+  height: 10%;
+  margin: 20px 0;
+  padding: 0 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  border-bottom: solid #fff;
+}
+
+.checkbox {
+  margin: 10px 0;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+.checkbox p {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 30px;
+  text-transform: capitalize;
+}
+.radio_btn {
+  margin: 15px 0;
+  line-height: 40px;
+  font-size: 25px;
+  word-spacing: 20px;
+
+  color: #fff;
+}
+#btn {
+  width: 80%;
+  height: 60px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+#btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+  color: #fff;
+  transition: 0.3s;
+}

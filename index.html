@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age_Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./Images/images.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>AGE FINDER</h1>
+
+      <input
+        type="number"
+        id="input_number"
+        placeholder="Enter Your Born Year"
+        required
+      />
+
+      <div class="checkbox">
+        <p>
+          If your birthday is already this year then click on "Yes" otherwise
+          click on "No"
+        </p>
+        <div class="radio_btn">
+          <label for="Yes">
+            <input type="radio" name="options" id="Yes" value="Yes" required />
+            Yes
+          </label>
+          <label for="No">
+            <input type="radio" name="options" id="No" value="No" required /> No
+          </label>
+        </div>
+        <button id="btn">Generate</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
